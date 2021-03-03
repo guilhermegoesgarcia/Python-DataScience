@@ -1,0 +1,24 @@
+
+Projeto- Emissor NF-E expresso
+
+
+
+Preciso de um software ou web service que tenha as seguintes funcionalidades:
+
+- Emissão de NF-e expressa, ou seja, a emissão deve ser feita da maneira mais rápida possível, o software gratuito que o governo dispõem exige que uma grande quantidade de campos sejam preenchidos, gostaria de trabalhar com pré configurações para que não seja necessáiro.
+
+- Implementar leitor de código de barras
+
+- Cadastro de pessoa juridica com consulta automática de CNPJ
+
+- Envio de NF-e por email com cabeçalho da loja (disponho servidor para testes )
+
+- Envio de NF-e por whatsapp
+
+- Exportação em PDF
+
+** Preferência de linguagem: C# + ASP.NET ou C++
+
+opções secundárias: desenvolvimento web com python + js
+
+obs: não precisa de gestão financeira nem de gestão de estoque. Apenas gestão de clientes e notas emitidas.

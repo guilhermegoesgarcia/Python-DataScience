@@ -1,0 +1,43 @@
+Projeto - Reconhecimento de documentos e faces
+
+
+
+Construir um componente para:
+
+1. Obter 2 fotos da pessoa com seu documento de identidade (uma foto para frente e outra para o verso do documento) e o vídeo entre estas fotos
+2. Validar se há apenas 1 pessoa nas imagens
+3. Validar se há apenas 1 documento de identidade nas imagens
+4. Validar se ao menos 1 das imagens tem documento de identidade com foto
+5. Validar se a pessoa está segurando um documento válido [RG de uma SSP (1) ou CNH (2)]
+6. Validar se a foto do documento é a mesma da pessoa na imagem e no vídeo
+7. Extrair via OCR (3) os dados do documento de identidade
+
+(1) Secretaria de Segurança Pública de algum estado da federação
+(2) Carteira Nacional de Habilitação
+(3) Reconhecimento Óptico de Caracteres
+
+
+1. Interface
+a. Informações de entrada:
+i. fragmento de vídeo e 2 imagens do titular com seu documento frente e verso
+b. Informações de saída:
+i. Flag erro [há mais de 1 pessoa na imagem] (sim/não)
+ii. Flag erro [há mais de 1 documento na imagem] (sim/não)
+iii. Flag erro [o documento não tem foto] (sim/não)
+iv. Flag erro [a pessoa ou o documento saiu da frente da câmera entre as 2 fotos] (sim/não)
+v. Flag erro [o rosto da pessoa na imagem não corresponde a foto no documento de identidade] (sim/não)
+vi. Flag erro [o documento de identidade não é válido] (sim/não)
+vii. Informações do documento:
+1. Número
+2. Nome
+3. Data de nascimento
+4. Filiação
+5. Naturalidade
+6. Data de emissão
+7. Número CPF (se houver)
+8. Validade (se houver)
+
+Produtos esperados:
+1. Código fonte dos módulos
+2. Documentação e scripts de instalação/configuração dos módulos e suas dependências
+3. Dados utilizados para realização de todos os cenários de teste
